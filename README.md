@@ -46,7 +46,7 @@ Main thing is that the model takes a long time to load because it has to downloa
 Was challenging learning about text embedding algorithms and whatnot, especially after having spent some time away from NLP. Spent an hour or two refreshing myself on the concepts, and focused on learning the documentation.
 
 ### Time Crunch
-Had to implement and design the ideas in essentially a day with a lot going on — decided to focus on getting the project working, with ideas for improvement and limited testing.
+Had to implement and design the ideas in essentially 7 or so hours with a lot going on — decided to focus on getting the project working, with ideas for improvement and limited testing.
 
 
 ## Further Improvements
