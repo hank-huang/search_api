@@ -2,8 +2,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import simpleneighbors
 
-model_url = 'https://tfhub.dev/google/universal-sentence-encoder-qa/3'
-model = hub.load(model_url)
+model = hub.load('https://tfhub.dev/google/universal-sentence-encoder-qa/3')
 
 print("model loaded")
 
@@ -13,15 +12,15 @@ def get_predictions(query, responses):
       input=tf.constant(responses),
       context=tf.constant(responses))
 
-    index = simpleneighbors.SimpleNeighbors(
+    query_index = simpleneighbors.SimpleNeighbors(
       len(encodings['outputs'][0]), metric='angular')
 
-    for batch_index, batch in enumerate(responses):
-        index.add_one(batch, encodings['outputs'][batch_index])
+    for idx, batch in enumerate(responses):
+        query_index.add_one(batch, encodings['outputs'][idx])
 
-    index.build()
+    query_index.build()
 
     query_embedding = model.signatures['question_encoder'](tf.constant([query]))['outputs'][0]
-    search_results = index.nearest(query_embedding, n=3)
+    search_results = query_index.nearest(query_embedding, n=3)
 
     return search_results
