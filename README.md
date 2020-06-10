@@ -3,27 +3,27 @@ dockerized smemantic search api using USEQA and bm25 ranker
 
 ## Deployment Instructions
 
-build docker image
+build docker image  
 
 ```
 docker image build -t <image_name> <directory>
 ```
 
-run docker image
+run docker image  
 
 ```
 docker run -t -d -p 5000:5000 <image_name>:latest
 ```
 
-query from api!
+query from api!  
 
-Currently the api supports two GET requests that take in a json with two fields: query, responses
+Currently the api supports two GET requests that take in a json with two fields: query, responses  
 
-query: what you want to search for
-responses: a list of candidate strings
+query: what you want to search for  
+responses: a list of candidate strings  
 
-/search/USEQA --> top 3 candidate strings based on minimum angular distance will be returned
-/search/BM25 --> returns a list of weights using the bm25 algorithm
+/search/USEQA --> top 3 candidate strings based on minimum angular distance will be returned  
+/search/BM25 --> returns a list of weights using the bm25 algorithm  
 
 Example:
 ```
