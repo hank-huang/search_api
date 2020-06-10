@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e01294f7-56cb-45bf-b9b9-da3932195dee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="687f45fe-c8e1-4c84-90e0-424385d72e46" />
+  <component name="ProjectId" id="1d5WFugA1PqcrUnpadk9D1TZzWf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.api">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vlad_takehome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vlad_takehome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.api" />
+        <item itemvalue="Python.tf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e01294f7-56cb-45bf-b9b9-da3932195dee" name="Default Changelist" comment="" />
+      <created>1591715333270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591715333270</updated>
+      <workItem from="1591715334649" duration="12420000" />
+      <workItem from="1591801089206" duration="8180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="576" y="35" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591802249278">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="769" y="-734" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-306.-1080.1920.1080@-306.-1080.1920.1080" timestamp="1591715756451" />
+    <state x="576" y="35" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591802249278" />
+    <state width="1074" height="203" key="GridCell.Tab.0.bottom" timestamp="1591753471890">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1074" height="203" key="GridCell.Tab.0.bottom/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591753471890" />
+    <state width="1074" height="203" key="GridCell.Tab.0.center" timestamp="1591753471888">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1074" height="203" key="GridCell.Tab.0.center/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591753471888" />
+    <state width="1074" height="203" key="GridCell.Tab.0.left" timestamp="1591753471887">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1074" height="203" key="GridCell.Tab.0.left/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591753471887" />
+    <state width="1074" height="203" key="GridCell.Tab.0.right" timestamp="1591753471888">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1074" height="203" key="GridCell.Tab.0.right/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591753471888" />
+    <state x="163" y="45" key="SettingsEditor" timestamp="1591716857016">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="163" y="45" key="SettingsEditor/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591716857016" />
+    <state x="333" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1591801137767">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="333" y="244" key="com.intellij.ide.util.TipDialog/0.0.1280.800/-306.-1080.1920.1080@0.0.1280.800" timestamp="1591801137767" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vlad_takehome$tf.coverage" NAME="tf Coverage Results" MODIFIED="1591734500243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vlad_takehome$api.coverage" NAME="api Coverage Results" MODIFIED="1591801197467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
