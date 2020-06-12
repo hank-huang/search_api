@@ -2,7 +2,7 @@
 dockerized smemantic search api using USEQA and bm25 ranker
 
 ## Overview
-Created an API using Python and Flask to handle search requests. Takes two different requests, one which returns top 3 candidate strings based on an angular distance metric (favorable approximation of cosine distance), and the other which returns weighted scores of preprocessed candidate strings.
+Created an API using Python and Flask to handle search requests. Given a query and several candidate strings, which candidate string best matches the query? Supports two different requests, one which returns top 3 candidate strings based on an angular distance metric (favorable approximation of cosine distance), and the other which returns weighted scores of preprocessed candidate strings.
 
 Credits to the folks at Tensorflow for the [USEQA algorithm](https://tfhub.dev/google/universal-sentence-encoder-qa/3), and dorian brown for the [bm25 ranker](https://github.com/dorianbrown/rank_bm25)! 
 
