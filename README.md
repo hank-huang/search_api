@@ -1,6 +1,11 @@
 # search_api
 dockerized smemantic search api using USEQA and bm25 ranker
 
+## Overview
+Created an API using Python and Flask to handle search requests. Takes two different requests, one which returns top 3 candidate strings based on an angular distance metric (favorable approximation of cosine distance), and the other which returns weighted scores of preprocessed candidate strings.
+
+Credits to the folks at Tensorflow for the [USEQA algorithm](https://tfhub.dev/google/universal-sentence-encoder-qa/3), and dorian brown for the [bm25 ranker](https://github.com/dorianbrown/rank_bm25)! 
+
 ## Deployment Instructions
 
 build docker image  
@@ -30,10 +35,6 @@ Example:
 curl --header "Content-Type: application/json" --request GET --data '{"query":"How old are you?","responses":["30","I am 30","hello_whale", "randomstring"]}' http:/localhost:5000/search/USEQA
 
 ```
-
-## Overview
-Created an API using Python and Flask to handle search requests. Takes two different requests, one which returns top 3 candidate strings based on an angular distance metric (favorable approximation of cosine distance), and the other which returns weighted scores of preprocessed candidate strings. 
-
 
 ## Challenges
 ### Big DockerFile
