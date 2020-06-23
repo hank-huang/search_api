@@ -30,4 +30,14 @@ def api_BM25():
     return jsonify(weights)
 
 
+@app.route('/search/combined', methods=['GET'])
+def api_combined():
+
+    query = request.json['query']
+    corpus = request.json['respomses']
+
+
+
+
+
 app.run()

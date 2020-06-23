@@ -1,8 +1,11 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import simpleneighbors
+import pickle
 
 model = hub.load('https://tfhub.dev/google/universal-sentence-encoder-qa/3')
+
+print(tf.saved_model.contains_saved_model("./"))
 
 print("model loaded")
 
