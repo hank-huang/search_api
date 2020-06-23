@@ -34,7 +34,10 @@ def api_BM25():
 def api_combined():
 
     query = request.json['query']
-    corpus = request.json['respomses']
+    corpus = request.json['responses']
+    weights = request.json['weights']
+
+
 
 
 
