@@ -64,7 +64,12 @@ Add in automated testing and unit tests with pytest.
 Might be easier to enter data using forms instead of current json endpoints. 
 
 
+## Naked Flask is not meant for Production — what alternative can we use to serve the API?
+Gunicorn? From what I'm reading we could use it to serve our Flask application via a WSGI. Another alternative we could use is to serve it through Heroku.
 
+
+## Compare embedding answers with the answer itself as context vs. empty context. Which approach produces better query results?
+As far as I can tell they perform roughly the same. If there are relevant answers, they get pulled up — if no answers are relevant different ones do but then none of them really matter in that case. I'd have to investigate the mechanism behind the context — a process that I think would take a bit of time. 
 
 
 
